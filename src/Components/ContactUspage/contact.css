@@ -1,7 +1,5 @@
 /* default css */
-.Total-page-B{
-  height: 100vh;
-}
+
 
 .Total-contpg {
     display: flex;
@@ -595,14 +593,22 @@ font-size: 8px;
   
       }
 
+      @media screen and (min-width: 450px) {
+        .Total-page-B{
+          height: 100vh;
+        }
+      }
+
       
   @media screen and (max-width: 450px) {
-
+    .Total-page-B{ 
+ padding-bottom: 100%;
+    }
       .Total-contpg{
           width: 450px;
       }
       .B-Bottom-media {
-        padding-left: 0px;
+        padding-left: 30px;
         padding-right: 0px;
       }
   
@@ -610,7 +616,7 @@ font-size: 8px;
 
         @media screen and (max-width: 400px) {
           .Total-page-B{
-            /* height: 120vh; */
+            /* height: 114vh; */
           }
           .B-Bottom-media {
         padding-left: 50px;
@@ -620,6 +626,6 @@ font-size: 8px;
     }
     @media screen and (max-width: 350px) {
 .Total-page-B{
-  /* height: 135vh; */
+
 }
     }
