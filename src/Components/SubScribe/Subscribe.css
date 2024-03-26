@@ -33,7 +33,7 @@
 
 .subscribe button {
   width: 55px;
-  height: 51.5px;
+  height: 52.5px;
   position: relative;
   right: 55px;
   top: 3px;
@@ -147,8 +147,9 @@ margin-top: -26px;
 
   }
   .subscribe button {
+
     right: 0px;
-    top: -62px;
+    top: -63px;
     left: 300px;
 }
 
@@ -174,7 +175,7 @@ width: 258px;
   .subscribe button {
 
     right: 0px;
-    top: -62px;
+    top: -63px;
     left: 250px;
 }
 }

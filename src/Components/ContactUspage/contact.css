@@ -610,7 +610,7 @@ font-size: 8px;
 
         @media screen and (max-width: 400px) {
           .Total-page-B{
-            height: 120vh;
+            /* height: 120vh; */
           }
           .B-Bottom-media {
         padding-left: 50px;
