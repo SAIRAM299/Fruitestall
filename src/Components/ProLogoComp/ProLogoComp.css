@@ -1,0 +1,370 @@
+.prologocomp-maincontainer{
+  display: flex;
+  flex-direction: row;
+justify-content: space-between;
+margin-top: 5rem;
+}
+
+.prologocomp-image{
+height: 450px;
+width: 500px;
+}
+.prologocomp-firstimg{
+  position: absolute;
+  left: 0;
+}
+
+.prologocomp-secondimg{
+  position: absolute;
+  right: 0;
+}
+
+.prologocomp-font-box{
+  position: relative;
+  left: 750px;
+}
+
+.prologocomp-list{
+  list-style: none;
+  display: grid;
+  gap: 1rem;
+  width: 80%;
+}
+
+.prologocomp-head{
+  font-size: 15px;
+  padding: 10px;
+margin-left: -250px;
+}
+
+.prologocomp-listfont{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  &:hover{
+      .prologocomp-icon{
+          display: none;
+      }
+      .prologocomp-font{
+          color: #fff0a1;
+          transform: translateY(-10px);
+          font-size: 30px;
+      }
+  }
+}
+.prologocomp-font{
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  padding: 10px;
+}
+.prologocomp-icon{
+  border-radius: 50%;
+  padding: 10px;
+  height: 60px;
+  width: 60px;
+}
+
+.hand {
+  background-color: #d0cfec;
+}
+.puzzle {
+  background-color: #fff0a1;
+}
+.mountain {
+  background-color: #bce2d7;
+}
+.climb {
+  background-color: #bfdff6;
+}
+
+
+
+@media screen and (max-width:1700px) {
+  .prologocomp-font-box{
+      position: relative;
+      left: 700px;
+  }
+  .prologocomp-image{
+      height: 450px;
+      width: 400px;
+      }
+}
+
+@media screen and (max-width:1600px) {
+  .prologocomp-font-box{
+      position: relative;
+      left: 600px;
+  }
+  .prologocomp-image{
+    margin-top: 2rem;
+    }
+}
+
+
+
+@media screen and (max-width:1400px) {
+  .prologocomp-maincontainer{
+      width: 1400px;
+  }
+  .prologocomp-image{
+      height: 400px;
+      width: 400px;
+      margin-top: 3rem;
+      }
+  .prologocomp-secondimg{
+      position: absolute;
+      right: 0px;
+  }
+  .prologocomp-font-box{
+      position: relative;
+      left: 500px;
+  }
+}
+
+@media screen and (max-width:1300px) {
+  .prologocomp-secondimg{
+      position: absolute;
+      right: -130px;
+  }
+}
+
+
+@media screen and (max-width:1200px) {
+  .prologocomp-maincontainer{
+      width: 1200px;
+  }
+  .prologocomp-image{
+      height: 400px;
+      width: 300px;
+      margin-top: 4rem;
+      }
+      .prologocomp-secondimg{
+          position: absolute;
+          right: 0px;
+      }
+  .prologocomp-font-box{
+      position: relative;
+      left: 400px;
+  }
+}
+
+@media screen and (max-width:1100px) {
+  .prologocomp-secondimg{
+      position: absolute;
+      right: -100px;
+  }
+}
+
+@media screen and (max-width:1000px) {
+  .prologocomp-maincontainer{
+      width: 1000px;
+  }
+  .prologocomp-image{
+      height: 400px;
+      width: 300px;
+      margin-top: 4rem;
+      }
+  .prologocomp-secondimg{
+      position: absolute;
+      right:-10px;
+  }
+  .prologocomp-font-box{
+      position: relative;
+      left: 300px;
+  }
+  .prologocomp-font{
+      font-size: 20px;
+  }
+  .prologocomp-icon{
+      height: 40px;
+      width: 40px;
+  }
+  .prologocomp-listfont{
+      &:hover{
+          .prologocomp-font{
+              font-size: 25px;
+          }
+      }
+  }
+}
+
+@media screen and (max-width:900px) {
+  .prologocomp-secondimg{
+      position: absolute;
+      right: -100px;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .prologocomp-maincontainer{
+      width: 800px;
+  }
+  .prologocomp-image{
+      height: 400px;
+      width: 200px;
+      margin-top: 2rem;
+      }
+  .prologocomp-secondimg{
+      position: absolute;
+      right:0px;
+  }
+  .prologocomp-head{
+margin-left: -150px;
+  }
+
+  .prologocomp-font-box{
+      position: relative;
+      left: 200px;
+  }
+}
+
+@media screen and (max-width:700px) {
+  .prologocomp-secondimg{
+      position: absolute;
+      right: -100px;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .prologocomp-maincontainer{
+      width: 600px;
+  }
+  .prologocomp-image{
+      height: 300px;
+      width: 150px;
+      margin-top: 4rem;
+      }
+  .prologocomp-secondimg{
+      position: absolute;
+      right:-20px;
+  }
+  .prologocomp-font-box{
+      position: relative;
+      left: 130px;
+  }
+  .prologocomp-head{
+    font-size: 40px;
+    margin-left: -80px;
+    img{
+      width: 70px;
+    }
+  }
+  .prologocomp-font{
+      font-size: 15px;
+  }
+  .prologocomp-icon{
+      height: 40px;
+      width: 40px;
+  }
+  .prologocomp-listfont{
+      &:hover{
+          .prologocomp-font{
+              font-size: 20px;
+          }
+      }
+  }
+}
+
+@media screen and (max-width:500px) {
+  .prologocomp-secondimg{
+      position: absolute;
+      right: -100px;
+  }
+}
+
+@media screen and (max-width:450px) {
+  .prologocomp-maincontainer{
+      width: 450px;
+      margin-top: 2rem;
+  }
+  .prologocomp-image{
+      height: 150px;
+      width: 100px;
+      margin-top: 2rem;
+      }
+  .prologocomp-secondimg{
+      position: absolute;
+      right: -18px;
+  }
+  .prologocomp-head{
+      font-size: 15px;
+      padding: 2px;
+  margin-left: 55px;
+  img{
+      width: 50px;
+      display: none;
+
+  }
+  }
+  .prologocomp-font-box{
+      position: relative;
+      left: 100px;
+  }
+  .prologocomp-font{
+      font-size: 14px !important;
+      margin-right: 10px;
+      padding: 2px;
+  }
+  .prologocomp-icon{
+      height: 35px;
+      width: 35px;
+  }
+  .prologocomp-list{
+      gap: 0.5rem;
+      /* font-size: 10px; */
+  }
+
+  .prologocomp-listfont{
+    font-size: 10px;
+
+      &:hover{
+          .prologocomp-font{
+              color: #fff0a1;
+              transform: translateY(-10px);
+              font-size: 12px;
+          }
+      }
+  }
+}
+
+@media screen and (max-width:430px) {
+  .prologocomp-secondimg{
+      position: absolute;
+      right: -65px;
+  }
+}
+
+@media screen and (max-width:400px) {
+  .prologocomp-secondimg{
+      position: absolute;
+      right: -115px;
+  }
+}
+
+@media screen and (max-width:350px) {
+  .prologocomp-secondimg{
+      position: absolute;
+      right: -170px;
+  }
+  
+}
+
+@media screen and (max-width:300px) {
+
+  .prologocomp-secondimg{
+      position: absolute;
+      right: -150px;
+  }
+
+  .prologocomp-font-box{
+    position: relative;
+    left: 90px;
+}
+.prologocomp-font{
+    font-size:10px;
+    font-size: 14px !important;
+    margin-right: 10px;
+}
+  
+}

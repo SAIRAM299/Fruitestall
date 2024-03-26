@@ -1,0 +1,69 @@
+.pagetwo-body{
+    margin: 15%;
+    margin-top: 10%;
+    margin-bottom: 0%;
+}
+
+.pagetwo-heading{
+    font-family: "Proza Display", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.pagetwo-content{
+    font-family: "DM Sans",sans-serif;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 1200px){
+    .pagetwo-body{
+        margin: 10%;
+    }
+    .pagetwo-heading{
+        font-size: 27px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .pagetwo-body{
+  margin-top: 15%;
+    }
+    
+    .pagetwo-heading{
+        font-size: 23px;
+    }
+    
+    .pagetwo-content{
+        font-size: 10px;
+    }
+}
+
+
+@media screen and (max-width: 550px){
+    .pagetwo-body{
+        margin-top: 15%;
+    }
+    .pagetwo-heading{
+        font-size: 13px;
+    }
+    
+    .pagetwo-content{
+        font-size: 7px;
+    }
+}
+
+
+@media screen and (max-width: 350px){
+    .pagetwo-heading{
+        font-size: 10px;
+    }
+    
+    .pagetwo-content{
+        font-size: 5px;
+    }
+    .pagetwo-body{
+        margin: 5%;
+        margin-top: 20%;
+    }
+}

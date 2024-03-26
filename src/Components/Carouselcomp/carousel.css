@@ -1,0 +1,398 @@
+.B-gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.image-align-B {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.B-imagecontain {
+  position: relative;
+  margin-right: 100px;
+  margin-top: 20px;
+  width: auto;
+  transition: transform 0.3s ease; 
+}
+
+.B-imagecontain img {
+  max-width: 100px;
+  cursor: pointer;
+}
+
+.Make-title-B {
+  position: absolute;
+  top: 50%;
+  left: calc(100% + 10px);
+  transform: translateY(-50%);
+  color: black;
+  font-size: 20px;
+  font-weight: bolder;
+  pointer-events:none; 
+  transition: opacity 0.5s ease, left 0.8s ease; /* This controls smoothness of title transition */
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden; 
+  text-overflow: ellipsis;
+  z-index: 2; /* Ensure title is above image */
+}
+
+.Make-Location-B {
+  font-weight: lighter;
+  color: gray;
+}
+
+.B-imagecontain:hover .Make-title-B {
+  opacity: 1;
+  left: calc(100% + 5px);
+  transition: left 0.3s ease; /* Adjust transition duration and timing function for smoother hover */
+}
+
+.B-imagecontain:hover {
+  transform: translateX(-60px);
+  transition: transform 0.3s ease; /* Adjust transition duration and timing function for smoother hover */
+}
+
+.B-default-paragraph {
+  border-radius: 15px; 
+  padding: 20px 15px;
+  width: 85%; 
+  display: flex;
+  margin: auto;
+  height: 280px;
+  line-height: 25px;
+}
+
+.Hoverd-Para-B {
+  color: black;
+  /* padding: 5px 10px; */
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 100px;
+  font-size: 18px;
+  font-family: "DM Sans", sans-serif;
+  margin-left: 40px;
+  line-height: 30px;
+  
+
+}
+
+.dot {
+  height: 40px;
+  width: 40px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 60px;
+}
+
+.B-default-paragraph.paragraph1 {
+  background-color: lightyellow;
+}
+
+.B-default-paragraph.paragraph2 {
+  background-color: lightseagreen;
+}
+
+.B-default-paragraph.paragraph3 {
+  background-color: lightslategrey;
+}
+
+.B-default-paragraph.paragraph4 {
+  background-color: lightgrey;
+}
+
+.B-default-paragraph.paragraph5 {
+  background-color: lightsteelblue;
+}
+
+
+@media screen and (max-width:1050px) {
+  .B-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .image-align-B {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 42px;
+  }
+  
+  .B-imagecontain {
+    position: relative;
+    margin-right: 80px;
+    margin-top: 20px;
+    width: auto;
+    transition: transform 0.3s ease; 
+  }
+  
+  .B-imagecontain img {
+    max-width: 70px;
+    cursor: pointer;
+  }
+  
+  
+}
+
+
+@media screen and (max-width: 768px) {
+
+
+  .B-imagecontain {
+    position: relative;
+    margin-right: 50px;
+    margin-top: 20px;
+    width: auto;
+    transition: transform 0.3s ease; 
+  }
+  
+  .B-imagecontain img {
+    max-width: 40px;
+    cursor: pointer;
+  }
+  
+  .Make-title-B {
+    position: absolute;
+    top: 50%;
+    left: calc(100% + 10px);
+    transform: translateY(-50%);
+    color: black;
+    font-size: 7px;
+    font-weight: bolder;
+    pointer-events:none; 
+    transition: opacity 0.5s ease, left 0.8s ease; /* This controls smoothness of title transition */
+    width: 170px;
+    white-space: nowrap;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    z-index: 2; /* Ensure title is above image */
+  }
+  
+  .Make-Location-B {
+    font-weight: lighter;
+    color: gray;
+    font-size: 6px;
+  }
+  
+  .B-imagecontain:hover .Make-title-B {
+    opacity: 1;
+    left: calc(100% + 5px);
+    transition: left 0.3s ease; /* Adjust transition duration and timing function for smoother hover */
+  }
+  
+  .B-imagecontain:hover {
+    transform: translateX(-60px);
+    transition: transform 0.3s ease; /* Adjust transition duration and timing function for smoother hover */
+  }
+  
+  .B-default-paragraph {
+    border-radius: 15px; 
+    padding: 2px 2px;
+    width: 85%; 
+    display: flex;
+    margin: auto;
+    height: 190px;
+    font-size: 7px;
+    /* line-height: 10px; */
+  }
+  
+  .Hoverd-Para-B {
+    color: black;
+    padding: 5px 5px;
+    font-size: 12px;
+    font-family: "DM Sans", sans-serif;
+    margin-left: 20px;
+    line-height: 15px;
+  }
+  
+  
+  .dot {
+    height: 20px;
+    width: 20px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+}
+
+
+
+@media screen and (max-width: 450px) {
+
+  .align-Text{
+    margin-top:-26px
+
+  }
+
+  .B-imagecontain {
+    position: relative;
+    margin-right:40px;
+    margin-top: 20px;
+    width: auto;
+    transition: transform 0.3s ease; 
+  }
+  
+  .B-imagecontain img {
+    max-width: 30px;
+    cursor: pointer;
+  }
+  
+  .Make-title-B {
+    position: absolute;
+    top: 50%;
+    left: calc(100% + 10px);
+    transform: translateY(-50%);
+    color: black;
+    font-size: 6px;
+    font-weight: bolder;
+    pointer-events:none; 
+    transition: opacity 0.5s ease, left 0.8s ease; 
+    width: 180px;
+    white-space: nowrap;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    z-index: 2; 
+  }
+  
+  .Make-Location-B {
+    font-weight: lighter;
+    color: gray;
+    font-size: 6px;
+  }
+  
+  .B-imagecontain:hover .Make-title-B {
+    opacity: 1;
+    left: calc(100% + 2px);
+    transition: left 0.3s ease; /* Adjust transition duration and timing function for smoother hover */
+  }
+  
+  .B-imagecontain:hover {
+    transform: translateX(-60px);
+    transition: transform 0.3s ease; /* Adjust transition duration and timing function for smoother hover */
+  }
+  
+  .B-default-paragraph {
+    border-radius: 15px; 
+    padding: 5px 5px;
+    width: 85%; 
+    display: flex;
+    margin: auto;
+    height: 200px;
+    font-size: 6px;
+    /* line-height: 10px; */
+  }
+  
+  .Hoverd-Para-B {
+    color: black;
+    /* padding: 5px 5px; */
+    padding-top: 35px;
+    padding-right: 10px;
+    font-size: 12px;
+    font-family: "DM Sans", sans-serif;
+    margin-left: 20px;
+    line-height: 15px;
+  }
+  
+  .dot {
+    height: 20px;
+    width: 20px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 7px;
+  }
+
+
+}
+
+@media screen and (max-width: 370px) {
+
+  .image-align-B {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .B-imagecontain {
+    position: relative;
+    margin-right:40px;
+    margin-top: 20px;
+    width: auto;
+    transition: transform 0.3s ease; 
+  }
+  
+  .B-imagecontain img {
+    max-width: 15px;
+    cursor: pointer;
+  }
+  
+  .Make-title-B {
+    position: absolute;
+    top: 50%;
+    left: calc(100% + 10px);
+    transform: translateY(-50%);
+    color: black;
+    font-size: 5px;
+      pointer-events:none; 
+    transition: opacity 0.5s ease, left 0.8s ease; 
+    width: 150px;
+    white-space: nowrap;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    z-index: 2; 
+  }
+  
+  .Make-Location-B {
+    font-weight: lighter;
+    color: gray;
+    font-size: 6px;
+  }
+  
+  .B-imagecontain:hover .Make-title-B {
+    opacity: 1;
+    left: calc(100% + 2px);
+    transition: left 0.3s ease; /* Adjust transition duration and timing function for smoother hover */
+  }
+  
+  .B-imagecontain:hover {
+    transform: translateX(-60px);
+    transition: transform 0.3s ease; /* Adjust transition duration and timing function for smoother hover */
+  }
+  
+  .B-default-paragraph {
+    border-radius: 15px; 
+    padding: 1px 1px;
+    width: 85%; 
+    display: flex;
+    margin: auto;
+    height: 180px;
+    font-size: 6px;
+   
+  }
+  
+  .Hoverd-Para-B {
+    color: black;
+    padding: 5px 5px;
+    font-size: 7.5px;
+    font-family: "DM Sans", sans-serif;
+    margin-left: 20px;
+    
+  }
+  
+  .dot {
+    height: 10px;
+    width: 10px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 15px;
+  }
+
+
+}

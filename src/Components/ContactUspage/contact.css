@@ -1,0 +1,625 @@
+/* default css */
+.Total-page-B{
+  height: 100vh;
+}
+
+.Total-contpg {
+    display: flex;
+    flex-direction: row;
+    padding: 60px 30px 60px 30px;
+  }
+
+
+  @font-face {
+    font-family: 'ProzaDisplaylight'; 
+    src: url('../../assets/Fonts/PROZADISPLAY-LIGHT.TTF') format('woff');;
+ 
+}
+
+
+  .input-class::placeholder {
+    color: black;
+    font-weight: 400;
+    padding-left: 20px;
+    font-size: 17.12px;
+    padding-top: 10px;
+  }
+  
+  .left-B-column,
+  .Rightb-column{
+    padding: 20px;
+  }
+  .have-question{
+    font-family: "ProzaDisplaylight";
+    font-size: 50px;
+    font-weight:400 ;
+    padding: 10px;
+line-height: 65px;
+
+  }
+
+  .Send-mail{
+margin-top: 50px;
+color:#828385;
+
+  }
+  .left-B-column {
+    flex: 1.5;
+    margin-left: 250px;
+  }
+  
+  .Rightb-column{
+    flex: 1;
+   margin-right: 200px;
+  }
+  
+  .input{
+    width: 108%;
+    height: 50px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    border: 1.06px solid #E6E6E6
+
+  }
+  textarea {
+    width: 108%;
+    border-radius: 5px;
+    height: 100px;
+    margin-bottom: 15px;
+    border: 1.06px solid #E6E6E6
+
+  }
+  .Class-message{
+    align-items: center;
+  }
+
+
+  .Btn-Send-message{
+    width: 160px;
+    padding: 10px;
+    background-color: #226AC7;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .B-Bottom-media {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-top: 40px; */
+    margin-bottom: 70px;
+
+    padding-left: 300px;
+    padding-right: 250px;
+    
+  }
+  
+  .B-mediaAlign p {
+    display: flex;
+    align-items: center;
+    border: 1px solid #CBCBCB;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    margin-left: 40px;
+    width: 200px;
+    padding: 5px;
+    justify-content: space-around;
+  }
+  
+  .social-contimg0{
+    max-width: 40px;
+  }
+
+.social-contimg1{
+    max-width: 50px;
+   margin-right: 20px;
+}
+.social-contimg2{
+    max-width: 50px;
+    margin-left: 25px;
+    margin-right:40px ;
+
+}
+.social-contimg3{
+    max-width: 50px;
+    margin-right: 150px;
+
+}
+ 
+
+
+/* For large size destop or laptop */
+
+@media screen and (max-width: 1150px) {
+.Total-contpg{
+  padding-right: 0;
+}
+
+  .left-B-column,
+  .Rightb-column{
+    padding: 20px;
+  }
+  .have-question{
+    font-family: "ProzaDisplaylight";
+    line-height: 30px;
+    font-size: 40px;
+  }
+
+  .Send-mail{
+margin-top: 50px;
+color:#828385;
+
+  }
+  .left-B-column {
+    flex: 1.5;
+    margin-left: 30px;
+  }
+  
+  .Rightb-column{
+    flex: 1;
+   margin-right: 0px;
+  }
+  
+  .input{
+    width: 60%;
+    height: 50px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    
+  }
+  textarea {
+    width: 60%;
+    border-radius: 5px;
+    height: 100px;
+    margin-bottom: 15px;
+  }
+  .Class-message{
+    align-items: center;
+  }
+  .Btn-Send-message{
+    width: 160px;
+    padding: 10px;
+    background-color: #226AC7;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .B-Bottom-media {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+  }
+  
+  .B-mediaAlign p {
+    display: flex;
+    align-items: center;
+    border: 1px solid #CBCBCB;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    margin-left: 40px;
+    width: 200px;
+    padding: 5px;
+    justify-content: space-around;
+  }
+  
+  .social-contimg0{
+    max-width: 35px;
+  }
+
+.social-contimg1{
+    max-width: 40px;
+   margin-right: 20px;
+}
+.social-contimg2{
+    max-width: 40px;
+    margin-left: 25px;
+    margin-right:40px ;
+}
+.social-contimg3{
+    max-width: 40px;
+    margin-right: 80px;
+}
+ 
+}
+
+@media screen and (max-width: 768px) {
+
+  .Total-contpg {
+  padding-right: 0;
+  padding-bottom: 50px;
+  }
+  
+  .left-B-column,
+  .Rightb-column{
+    padding: 10px;
+  }
+  .have-question{
+    font-family: "ProzaDisplaylight";
+    font-size: 25px;
+  }
+
+  .Send-mail{
+margin-top: 50px;
+color:#828385;
+
+  }
+  .left-B-column{
+    flex: 1.5;
+    margin-left: 30px;
+  }
+  
+  .Rightb-column{
+    flex: 1;
+   margin-right: 40px;
+  }
+  
+  .input{
+    width: 70%;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    
+  }
+  textarea {
+    width: 70%;
+    border-radius: 5px;
+    height: 50px;
+    margin-bottom: 15px;
+  }
+  .Class-message{
+    align-items: center;
+  }
+  .Btn-Send-message {
+    width: 160px;
+    padding: 8px;
+    background-color: #226AC7;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .B-Bottom-media {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+   
+  }
+  
+  .B-mediaAlign p {
+    display: flex;
+    align-items: center;
+    border: 1px solid #CBCBCB;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    margin-left: 40px;
+    width: 200px;
+    padding: 5px;
+    justify-content: space-around;
+  }
+  
+  .social-contimg0{
+    max-width: 40px;
+  }
+
+.social-contimg1{
+    max-width: 35px;
+   margin-right: 20px;
+}
+.social-contimg2{
+    max-width: 35px;
+    margin-left: 10px;
+    margin-right:25px ;
+}
+.social-contimg3{
+    max-width: 35px;
+    margin-right: 50px;
+}
+ 
+}
+@media screen and (max-width: 600px) {
+
+  .Total-contpg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .left-B-column,
+  .Rightb-column{
+    padding: 0px;
+  }
+  .have-question{
+    font-family: "ProzaDisplaylight";
+
+    font-size: 18px;
+  }
+
+  .Send-mail{
+margin-top: 10px;
+color:#828385;
+font-size: 15px;
+
+  }
+  .left-B-column{
+    flex: 1;
+    margin-left: 0px;
+  }
+  
+  .Rightb-column{
+    flex: 1;
+ display: flex;
+ justify-content: flex-start;
+ flex-direction: column;
+ align-items: center;
+ margin-top: 25px;
+  }
+  
+  .input{
+    width: 50%;
+    height: 35px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
+  }
+  textarea {
+    width:50%;
+    border-radius: 5px;
+    height: 60px;
+    margin-bottom: 15px;
+  }
+  .Class-message{
+    align-items: center;
+
+  }
+  .Btn-Send-message {
+    width: 120px;
+    padding: 7px;
+    background-color: #226AC7;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+    
+  .B-Bottom-media {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+  }
+  
+  .B-mediaAlign p {
+    display: flex;
+    align-items: center;
+    border: 1px solid #CBCBCB;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    margin-left: 10px;
+    width: 170px;
+    padding: 2px;
+    justify-content: space-around;
+  }
+  
+  .social-contimg0{
+    max-width: 30px;
+  }
+
+.social-contimg1{
+    max-width: 30px;
+   margin-right: 10px;
+}
+.social-contimg2{
+    max-width: 30px;
+    margin-left: 10px;
+    margin-right:15px ;
+}
+.social-contimg3{
+    max-width: 30px;
+    margin-right: 5px;
+}
+ 
+}
+
+@media screen and (max-width: 450px) {
+
+.Total-contpg{
+  padding: 0;
+}
+  
+
+  .left-B-column,
+  .Rightb-column{
+    padding: 2px;
+  }
+  .have-question{
+    font-family: "ProzaDisplaylight";
+
+    font-size: 14px;
+  }
+.Hello-primalcare{
+  font-size: 8px;
+}
+  .Send-mail{
+margin-top: 50px;
+color:#828385;
+font-size: 8px;
+
+  }
+  .left-B-column{
+    flex: 0.8;
+    margin-left: 50px;
+  }
+  
+  .Rightb-column{
+    flex: 1;
+   margin-right: 20px;
+  }
+  
+  .input{
+    width: 60%;
+    height: 35px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    font-size: 8px;
+  }
+
+
+
+  textarea {
+    width: 60%;
+    border-radius: 5px;
+    height: 45px;
+    margin-bottom: 15px;
+    font-size: 8px;
+  }
+  .Class-message{
+    align-items: center;
+  }
+  .Btn-Send-message{
+    width: 100px;
+    padding: 8px;
+    background-color: #226AC7;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 7px;
+  }
+  .B-Bottom-media {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+  }
+  .B-Bottom-media {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+  .B-mediaAlign p {
+    display: flex;
+    align-items: center;
+    border: 1px solid #CBCBCB;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    margin-left: 10px;
+    width: 140px;
+    padding: 2px;
+    justify-content: space-around;
+    font-size: small;
+  }
+  
+  .social-contimg0{
+    max-width: 20px;
+  }
+
+.social-contimg1{
+    max-width: 22px;
+   margin-right: 10px;
+}
+.social-contimg2{
+    max-width: 22px;
+    margin-left: 10px;
+    margin-right:15px ;
+}
+.social-contimg3{
+    max-width: 22px;
+    margin-right: 5px;
+}
+ 
+}
+
+
+@media screen and (max-width: 1400px) {
+
+  .Total-contpg{
+      width: 1400px;
+  }
+  .left-B-column{
+    margin-left: 50px;
+  }
+  .Rightb-column{
+    margin-right: 0px;
+  }
+
+  .B-Bottom-media {
+    padding-left: 100px;
+    padding-right: 50px;
+  }
+
+  }
+
+  
+  @media screen and (max-width: 1200px) {
+
+      .Total-contpg{
+          width: 1200px;
+      }
+  
+      }
+
+      @media screen and (max-width: 1000px) {
+
+          .Total-contpg{
+              width: 1000px;
+          }
+      
+          }
+  
+
+      
+  @media screen and (max-width: 800px) {
+
+      .Total-contpg{
+          width: 800px;
+      }
+  
+      }
+
+
+      
+  @media screen and (max-width: 600px) {
+
+      .Total-contpg{
+          width: 600px;
+      }
+  
+      }
+
+      
+  @media screen and (max-width: 450px) {
+
+      .Total-contpg{
+          width: 450px;
+      }
+      .B-Bottom-media {
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+  
+      }
+
+        @media screen and (max-width: 400px) {
+          .Total-page-B{
+            height: 120vh;
+          }
+          .B-Bottom-media {
+        padding-left: 50px;
+        padding-right: 0px;
+        margin-right: -30px;
+      }
+    }
+    @media screen and (max-width: 350px) {
+.Total-page-B{
+  /* height: 135vh; */
+}
+    }

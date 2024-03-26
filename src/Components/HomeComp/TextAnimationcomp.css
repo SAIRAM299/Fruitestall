@@ -1,0 +1,112 @@
+@font-face {
+  font-family: 'ProzaDisplay'; 
+  src: url('../../assets/Fonts/PROZADISPLAY-BOLD.TTF') format('woff');;
+
+}
+
+.text-animation-container {
+  margin-left: -2rem;
+    font-size: 80px;
+    font-weight: bold;
+    position: relative;
+    color: #0066CC;
+    transition: background-color 1s ease-in-out; /* Add transition for background color */
+    background-color: #fff; /* Initial background color */
+  }
+  
+
+  .common {
+    color: #0066CC;
+    position: absolute;
+    opacity: 1;
+   font-family: "ProzaDisplay";
+    left: 30px; /* Adjust as needed */
+  }
+  
+  .text-animation {
+    position: absolute;
+    opacity: 0;
+    font-family: "ProzaDisplay";
+    transition: opacity 1s ease-in-out;
+    left: 54px; 
+    color: #0066CC; /* Specify the font color */
+  }
+  
+  .show {
+    opacity: 1;
+  }
+  
+  .slide-right-to-left {
+    animation: slideRightToLeft 2s ease-in-out forwards;
+  }
+  
+  .slide-left-to-right {
+    animation: slideLeftToRight 2s ease-in-out forwards;
+  }
+  
+  .slide-top-to-bottom {
+    animation: slideTopToBottom 2s ease-in-out forwards;
+  }
+  
+  @keyframes slideRightToLeft {
+    0% {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+    100% {
+      opacity: 0;
+      transform: translateX(-10%);
+    }
+  }
+  
+  @keyframes slideLeftToRight {
+    0% {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+    100% {
+      opacity: 0;
+      transform: translateX(15%);
+    }
+  }
+  
+  @keyframes slideTopToBottom {
+    0% {
+      opacity: 1;
+      transform: translateY(20%);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(0%);
+    }
+  }
+  
+  @media screen and (max-width: 1200px){
+    .text-animation-container {
+      font-size: 60px;
+    }
+    
+  }
+
+    
+  @media screen and (max-width: 450px){
+
+    .text-animation-container {
+      font-size: 40px;
+      margin-left: 21px;
+      margin-top: 28px;
+
+    }
+    
+    
+    
+  }
+
+  @media screen and (max-width: 300px){
+    .text-animation-container {
+      margin-top: 10px;
+      font-size: 40px;
+      margin-left: 28px;
+    }
+    
+  }

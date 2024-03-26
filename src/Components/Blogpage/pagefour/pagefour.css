@@ -1,0 +1,76 @@
+
+
+.pagefour-box{
+    height: 400px;
+    background: #FCF2BF;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.pagefour-body{
+    margin: 15%;
+    margin-top: 5%;
+    margin-bottom: 0%;
+}
+.pagefour-content{
+    font-family: "DM Sans",sans-serif;
+    font-size: 20px;
+    width: 80%;
+    line-height: 3rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 1200px){
+    .pagefour-body{
+        margin: 10%;
+    }
+ }
+
+@media screen and (max-width: 800px){
+    .pagefour-body{
+  margin-top: 5%;
+    }
+ .pagefour-box{
+    height: 150px;
+ }
+    .pagefour-content{
+        font-size: 10px;
+        line-height: 1rem;
+    }
+}
+
+
+@media screen and (max-width: 550px){
+    .pagefour-body{
+        margin-top: 3%;
+    }
+.pagefour-content{
+        font-size: 7px;
+    }
+
+    .pagefour-box{
+        height: 100px;
+    }
+}
+
+
+@media screen and (max-width: 350px){
+    .pagethree-heading{
+        font-size: 10px;
+    }
+    .pagefour-box{
+        height: 50px;
+    }
+    .pagefour-content{
+        font-size: 5px;
+        line-height: 0.5rem;
+    }
+    .pagefour-body{
+        margin:5%;
+        margin-top: 5%;
+    }
+    
+}

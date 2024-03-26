@@ -1,0 +1,122 @@
+.pagethree-body{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 15%;
+    margin-top: 5%;
+    margin-bottom: 0%;
+}
+.pagethree-contain{
+    width: 50%;
+}
+
+.pagethree-image{
+ height: 420px;
+
+}
+
+.pageimag{
+    width: 350px;
+    height: 100%;
+}
+
+.pagethree-heading{
+    font-family: "Proza Display", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.pagethree-content{
+    font-family: "DM Sans",sans-serif;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1200px){
+    .pagethree-body{
+        margin: 10%;
+    }
+    .pagethree-heading{
+        font-size: 27px;
+    }
+
+    .pagethree-image{
+        height: 480px;
+       
+       }
+ 
+       .pageimag{
+           width: 350px;
+           height: 100%;
+       }
+}
+
+@media screen and (max-width: 800px){
+    .pagethree-body{
+  margin-top: 5%;
+    }
+    
+    .pagethree-heading{
+        font-size: 23px;
+    }
+    
+    .pagethree-content{
+        font-size: 10px;
+    }
+    .pagethree-image{
+        height: 200px;
+       
+       }
+ 
+       .pageimag{
+           width: 200px;
+           height: 100%;
+       }
+}
+
+
+@media screen and (max-width: 550px){
+    .pagethree-body{
+        margin-top: 3%;
+    }
+    .pagethree-heading{
+        font-size: 13px;
+    }
+    
+    .pagethree-content{
+        font-size: 7px;
+    }
+    .pagethree-image{
+        height: 150px;
+       
+       }
+ 
+       .pageimag{
+           width: 150px;
+           height: 100%;
+       }
+}
+
+
+@media screen and (max-width: 350px){
+    .pagethree-heading{
+        font-size: 10px;
+    }
+    
+    .pagethree-content{
+        font-size: 5px;
+    }
+    .pagethree-body{
+        margin: 5%;
+        margin-top: 5%;
+    }
+    .pagethree-image{
+        height: 100px;
+       
+       }
+ 
+       .pageimag{
+           width: 100px;
+           height: 100%;
+       }
+    
+}

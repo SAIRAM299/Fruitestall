@@ -1,0 +1,170 @@
+.nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.logo {
+  position: relative;
+  right: 700px;
+  bottom: 20px;
+}
+.signin-btn button {
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: 25px;
+  position: relative;
+  left: 180px;
+  font-family: "DM Sans", sans-serif;
+  background: transparent;
+  border: none;
+}
+
+.nav button img {
+  height: 25px;
+  width: 25px;
+  margin-top: 7px;
+  margin-left: 4px;
+  text-align: center;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1700px) {
+  .toggle{
+    margin-left: 3rem;
+  }
+  .signin-btn button {
+    left: 110px;
+  }
+  .logo {
+    right: 550px;
+  }
+  }
+
+
+@media screen and (max-width: 1400px) {
+  .nav{
+    width: 1400px;
+  }
+  .toggle{
+    margin-left: 3rem;
+  }
+  .signin-btn button {
+    left: 110px;
+  }
+  .logo {
+    right: 500px;
+  }
+  }
+
+
+  @media screen and (max-width: 1200px) {
+    .nav{
+      width: 1200px;
+    }
+    .toggle{
+      margin-left: 3rem;
+    }
+    .signin-btn button {
+      left: 80px;
+    }
+    .logo {
+      right: 450px;
+    }
+    }
+
+    @media screen and (max-width: 1000px) {
+      .nav{
+        width: 1000px;
+      }
+      .toggle{
+        margin-left: 6rem;
+      }
+      .logo {
+        right: 360px;
+      }
+      .signin-btn button {
+        left: 60px;
+      }
+      }
+
+      @media screen and (max-width: 800px) {
+        .nav{
+          width: 800px;
+        }
+        .toggle{
+          margin-left: 8rem;
+        }
+        .logo {
+          right: 300px;
+        }
+        .signin-btn button {
+          left: 40px;
+        }
+        }
+
+        @media screen and (max-width: 600px) {
+          .nav{
+            width: 600px;
+          }
+          .toggle{
+            margin-left: 12rem;
+          }
+          .logo {
+            right: 200px;
+          }
+          .signin-btn button {
+            left: 20px;
+          }
+          }
+
+
+@media screen and (max-width: 450px) {
+  .nav {
+    display: flex;
+    width: 450px;
+    justify-content: space-around;
+  }
+
+  .logo {
+    position: relative;
+    right: 230px;
+    bottom: 10px;
+  }
+
+  .logo img {
+    height: 70px;
+    width: 150px;
+  }
+
+  .signin-btn button {
+    display: none;
+  }
+  .toggle{
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .nav {
+    display: flex;
+    width: 350px;
+    justify-content: space-around;
+  }
+
+  .logo {
+    position: relative;
+    right: 180px;
+    bottom: 10px;
+  }
+
+  .logo img {
+    height: 70px;
+    width: 120px;
+  }
+
+
+  .toggle{
+    margin-top: 3rem;
+  }
+}

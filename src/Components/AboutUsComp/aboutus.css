@@ -1,0 +1,304 @@
+.align-Text{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    margin-top: 78px;
+}
+
+@font-face {
+    font-family: 'ProzaDisplay'; 
+    src: url('../../assets/Fonts/PROZADISPLAY-BOLD.TTF') format('woff');;
+ 
+}
+@font-face {
+    font-family: 'RageItalic'; 
+    src: url('../../assets/Fonts/RAGE.TTF') format('woff');;
+
+}
+
+
+.Body-text{
+    font-size: 60px;
+    font-family: "ProzaDisplay";
+
+
+}
+.Mind-text{
+    font-size: 60px;
+    font-family: "ProzaDisplay";
+
+}
+.Transform-text{
+    font-size: 100.01px;
+    color: #0066CC;
+    font-family: "RageItalic";
+}
+.Shine-text{
+    font-size: 60px;
+    font-family: "ProzaDisplay";
+
+}
+.Operateclass-B{
+    display: flex;
+    margin: auto;
+   justify-content: center;
+margin-top: 70px;
+}
+
+.B-Operatd-img{
+    width: 450px;
+    height: 450px;
+}
+
+.We-operate{
+    font-size: x-large;
+    margin-top: 250px;
+}
+.USA-Operation{
+    color:#0066CC;
+    font-size: x-large;
+}
+
+
+.Trans-form-class-b{
+    text-align: center;
+    align-items: center;
+    margin-top: 150px;
+    font-size: large;
+  }
+.span-trans{
+    font-family: "RageItalic";
+    color: #0066CC;
+  }
+  .Gets-button{
+    background-color: #0066CC;
+    color: white;
+    border-color: #0066CC;
+    height: 50px;
+    width: 200px;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    margin-left: 0;
+  }
+  .Right-arrow{
+    float: right;
+    margin-right: 11px;
+    height: 20px;
+  }
+
+@media screen and (max-width: 650px) {
+
+    .Body-text{
+        font-size: x-large;
+        font-family: "ProzaDisplay";
+    }
+    .Mind-text{
+        font-size: x-large;
+        font-family: "ProzaDisplay";
+
+    }
+    .Transform-text{
+        font-size: x-large;
+        color: #0066CC;
+        font-family: "RageItalic";
+
+    }
+    .Shine-text{
+        font-size: x-large;
+        font-family: "ProzaDisplay";
+
+    }
+    .B-Operatd-img{
+        width: 200px;
+        height: 300px;
+    }
+    
+    .We-operate{
+        font-size: x-large;
+        margin-top: 180px;
+    }
+    .USA-Operation{
+        color:#0066CC;
+        font-size: x-large;
+    }
+    
+.Trans-form-class-b{
+    text-align: center;
+    align-items: center;
+    margin-top: 80px;
+    font-size: small;
+  }
+.span-trans{
+    color: #0066CC;
+  }
+  .Gets-button{
+    background-color: #0066CC;
+    color: white;
+    border-color: #0066CC;
+    height: 40px;
+    width: 150px;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+  }
+  .Right-arrow{
+    float: right;
+    margin-right: 11px;
+    height: 15px;
+  }
+    
+}
+
+
+@media screen and (max-width: 350px) {
+    .Body-text{
+        font-size: small;
+        font-family: "ProzaDisplay";
+
+    }
+    .Mind-text{
+        font-size: small;
+        font-family: "ProzaDisplay";
+
+    }
+    .Transform-text{
+        font-size: small;
+        color: #0066CC;
+        font-family: "RageItalic";
+
+    }
+    .Shine-text{
+        font-size: small;
+        font-family: "ProzaDisplay";
+
+    }
+        .B-Operatd-img{
+            width: 120px;
+            height: 220px;
+        }
+        
+        .We-operate{
+            font-size: small;
+            margin-top: 120px;
+        }
+        .USA-Operation{
+            color:#0066CC;
+            font-size: small;
+        }
+            
+.Trans-form-class-b{
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+    font-size: x-small;
+  }
+.span-trans{
+    color: #0066CC;
+  }
+  .Gets-button{
+    background-color: #0066CC;
+    color: white;
+    border-color: #0066CC;
+    height: 30px;
+    width: 130px;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 130px;
+  }
+  .Right-arrow{
+    float: right;
+    margin-right: 11px;
+    height: 12px;
+  }
+    }
+    
+    @media screen and (max-width: 430px) {
+        .Trans-form-class-b{
+            text-align: center;
+            align-items: center;
+            margin-top: 50px;
+            font-size: x-small;
+            margin-left: 10px;
+          }
+        .Gets-button{
+            background-color: #0066CC;
+            color: white;
+            border-color: #0066CC;
+            height: 30px;
+            width: 130px;
+            align-items: center;
+            border-radius: 5px;
+            margin-top: 15px;
+            margin-bottom: 20px;
+            /* margin-left: 0px; */
+          }
+    }
+
+    @media screen and (max-width: 1400px) {
+
+    .Aboutus-total-page{
+        width: 1400px;
+    }
+
+    }
+
+    
+    @media screen and (max-width: 1200px) {
+
+        .Aboutus-total-page{
+            width: 1200px;
+        }
+    
+        }
+
+        @media screen and (max-width: 1000px) {
+
+            .Aboutus-total-page{
+                width: 1000px;
+            }
+        
+            }
+    
+
+        
+    @media screen and (max-width: 800px) {
+
+        .Aboutus-total-page{
+            width: 800px;
+        }
+    
+        }
+
+
+        
+    @media screen and (max-width: 600px) {
+
+        .Aboutus-total-page{
+            width: 600px;
+        }
+    
+        }
+
+        
+    @media screen and (max-width: 450px) {
+
+        .Aboutus-total-page{
+            width: 450px;
+            margin-left: 22px;
+        }
+    
+        }
+
+        
+        @media screen and (max-width: 350px) {
+            .Gets-button{
+                margin-right: 120px;
+            }
+        }

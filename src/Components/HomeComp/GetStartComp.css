@@ -1,0 +1,60 @@
+.get-started-btn {
+    display: inline-block;
+    padding: 15px 70px;
+    font-size: 35px;
+    font-weight: 500;
+      color: #0066cc;
+    background-color: white;
+    border-radius: 15px;
+    border-color: #0066cc;
+    margin: 40px 10px;
+    overflow: hidden;
+    transition:  0.3s ease, color 0.3s ease;
+  }
+  
+  @font-face {
+    font-family: 'ProzaDisplay'; 
+    src: url('../../assets/Fonts/PROZADISPLAY-BOLD.TTF') format('woff');;
+ 
+}
+  .get-started-btn.hovered {
+    background: linear-gradient(to bottom right, #0045ff, #4e8cff) ;
+    color: #fff;
+   
+    transition-duration: 2s;
+  }
+  
+  .arrow-icon {
+    content: "";
+    background: url("../../assets/Rightarrow.png") no-repeat;
+    width: 45px;
+    height: 20px;
+    display: inline-block;
+  }
+  
+  .get-started-btn.hovered .arrow-icon {
+    transform: translateY(2%) translateX(5%);
+ 
+  }
+  
+  @media screen and (max-width: 1200px){
+
+    .get-started-btn {
+      display: inline-block;
+      padding: 15px 55px;
+      font-size: 35px;
+      margin: 40px 0px;
+
+    }
+  }
+
+  @media screen and (max-width: 800px){
+
+    .get-started-btn {
+      display: inline-block;
+      padding: 10px 50px;
+      font-size: 30px;
+      margin: 40px 0px;
+
+    }
+  }

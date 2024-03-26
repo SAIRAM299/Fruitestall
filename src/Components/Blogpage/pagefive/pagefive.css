@@ -1,0 +1,68 @@
+.pagefive-body{
+    margin: 15%;
+    margin-top: 5%;
+    margin-bottom: 0%;
+}
+
+.pagefive-heading{
+    font-family: "Proza Display", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.pagefive-content{
+    font-family: "DM Sans",sans-serif;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1200px){
+    .pagefive-body{
+        margin: 10%;
+    }
+    .pagefive-heading{
+        font-size: 27px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .pagefive-body{
+  margin-top: 5%;
+    }
+    
+    .pagefive-heading{
+        font-size: 23px;
+    }
+    
+    .pagefive-content{
+        font-size: 10px;
+    }
+}
+
+
+@media screen and (max-width: 550px){
+    .pagefive-body{
+        margin-top: 3%;
+    }
+    .pagefive-heading{
+        font-size: 13px;
+    }
+    
+    .pagefive-content{
+        font-size: 7px;
+    }
+}
+
+
+@media screen and (max-width: 350px){
+    .pagefive-heading{
+        font-size: 10px;
+    }
+    
+    .pagefive-content{
+        font-size: 5px;
+    }
+    .pagefive-body{
+        margin: 5%;
+        margin-top: 5%;
+    }
+}

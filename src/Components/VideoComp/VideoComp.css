@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'RageItalic'; 
+    src: url('../../assets/Fonts/RAGE.TTF') format('woff');;
+
+}
+@font-face {
+    font-family: 'ProzaDisplaylight'; 
+    src: url('../../assets/Fonts/PROZADISPLAY-LIGHT.TTF') format('woff');;
+ 
+}
+@font-face {
+    font-family: 'ProzaDisplay'; 
+    src: url('../../assets/Fonts/PROZADISPLAY-BOLD.TTF') format('woff');;
+ 
+}
+.video{
+    width: 100%;
+    height:600px;
+    background-image: url("../../assets/videoComp.png");
+    background-repeat: no-repeat;
+    background-size:cover;  
+}
+.video h1{
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 300px;
+font-size: 48px;
+    font-family: "ProzaDisplaylight";
+    font-weight: 10;
+} 
+
+.video i { 
+    font-family: "RageItalic";
+
+     color: #FFFFFF;
+}
+@media screen and (max-width:1400px){
+    
+    .video{
+        width: 1400px;
+        height:600px;
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+}
+
+@media screen and (max-width:1200px){
+    
+    .video{
+        width: 1200px;
+        height:600px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    
+    .video{
+        width: 1000px;
+        height:600px;
+    }
+}
+
+@media screen and (max-width:800px){
+    
+    .video{
+        width: 800px;
+        height:600px;
+    }
+}
+
+@media screen and (max-width:600px){
+    
+    .video{
+        margin-top: 0px;
+        width: 600px;
+        height:600px;
+    }
+}
+
+@media screen and (max-width:450px){
+    
+    .video{
+        width:496px;
+        height:400px;
+        background-repeat: no-repeat;
+        background-image: url("../../assets/videoComp2.png");
+        background-size:cover;
+        background-position: center;
+    }
+
+    .video h1{
+        text-align: center;
+        color: #FFFFFF;
+        padding-top: 160px;
+        font-family: "ProzaDisplaylight";
+        font-weight: 10;
+    } 
+}
+
+
+
+

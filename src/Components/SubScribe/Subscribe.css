@@ -1,0 +1,180 @@
+/* Subscribe to our newsletter */
+@font-face {
+  font-family: 'ProzaDisplay'; 
+  src: url('../../assets/Fonts/PROZADISPLAY-BOLD.TTF') format('woff');;
+
+}
+.subscribe {
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+.subscribe input {
+  visibility: visible; 
+  opacity: 1;
+  position: relative;
+  padding: 13px;
+  margin: 10px 0px 10px 0px;
+  border-radius: 7px 7px 7px 7px;
+  border-color: #0066cc;
+  transition: opacity 0.5s ease; 
+  border: 1.94px solid #0066CC}
+.L-Para{
+  font-size: 25px;
+  font-family: "DM Sans", sans-serif;
+  padding: 15px;
+}
+.subscribe h1 {
+  padding: 15px;
+
+  font-family: "ProzaDisplay";
+}
+
+.subscribe button {
+  width: 55px;
+  height: 51.5px;
+  position: relative;
+  right: 55px;
+  top: 3px;
+  background-color: #0066cc;
+  border-radius: 0px 7px 7px 0px;
+  border: none;
+  
+}
+
+.subscribe span {
+  font-size: 25px;
+  color: white;
+  position: relative;
+  bottom: 4px;
+}
+
+.loading-spinner {
+  color: white;
+  border: 2px solid #f3f3f3;
+  border-top: 2px solid #3498db;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  animation: spin 5s linear infinite;
+  margin: auto;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.success-message p {
+  font-size: 30px;
+  font-weight: 400;
+  color: #0066cc;
+
+  position: relative;
+  animation: slideInAndZoom 1s ease;
+}
+
+@keyframes slideInAndZoom {
+  0% {
+    transform: scale(1) translateX(0%);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.1) translateX(0%);
+  }
+}
+
+@media screen and (max-width:600px){
+  .subscribe {
+    text-align: center;
+    padding: 2rem;
+    margin-top: 30px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .subscribe button {
+    right: 0px;
+    top: -62px;
+    left: 440px;
+}
+}
+
+@media screen and (max-width:500px){
+  .subscribe button {
+    right: 0px;
+    top: -62px;
+    left: 350px;
+}
+.L-Para{
+  font-size: 15px;
+}
+.subscribe h1{
+  font-size: 25px;
+  font-family: "ProzaDisplay";
+
+}
+}
+
+
+
+@media screen and (max-width:450px){
+  .subscribe {
+    text-align: center;
+    padding: 2rem;
+    margin-top: 30px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .subscribe h1 {
+width: 353px;  
+    font-family: "ProzaDisplay";
+  }
+  .L-Para{
+    width: 353px;  
+margin-top: -26px;
+    font-size: 15px;
+
+  }
+  .subscribe button {
+    right: 0px;
+    top: -62px;
+    left: 300px;
+}
+
+
+
+
+
+}
+
+@media screen and (max-width:400px){
+  .subscribe {
+    margin-left: 40px;
+  }
+
+  .success-message{
+    margin-left: 86px;
+    width: 100%;
+
+  }
+  .subscribe input {
+width: 258px;
+  }
+  .subscribe button {
+
+    right: 0px;
+    top: -62px;
+    left: 250px;
+}
+}

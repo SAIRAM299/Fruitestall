@@ -1,0 +1,374 @@
+.listbody{
+   margin: 15%;
+  margin-top: 7%;
+display: flex;
+justify-content: flex-start;
+flex-direction: column;
+gap: 4rem;
+}
+.cards{
+    width: 100%;
+    &:hover{
+       box-shadow: 0px 0px 0px 4px rgb(1, 149, 255);
+       cursor: pointer;
+    }
+}
+.container-c{
+    display: flex;
+    justify-content:space-between ;
+    gap: 4rem;
+    height: 250px;
+}
+
+.image-c{
+ width: 400px;
+}
+
+.infobox-c{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80%;
+padding-bottom: 0.5rem;
+}
+
+.about-c{
+    font-size: 30px;
+    font-weight: 500;
+    font-family:"DM Sans",sans-serif;
+    word-wrap: break-word;
+width: 80%;
+    
+}
+
+.statusbar-c{
+    display: flex;  
+    justify-content: flex-start;
+    gap: 1rem;
+    width: 80%;
+}
+
+.status-c{
+    background: #ECEAE3;
+}
+
+.status1{
+    font-family: "DM Sans",sans-serif;
+   padding-left:2rem;
+   padding-right: 2rem; 
+   padding-top: 1rem;
+   color: #5A5E62;
+}
+.status2{
+    color: #5A5E62;
+    font-family: "DM Sans",sans-serif;
+    padding-top: 1rem;
+}
+
+.day{
+    color: grey;
+    font-family: "DM Sans",sans-serif;
+}
+
+@media screen and (max-width: 1400px){
+    .listbody{
+        margin-left: 20%;
+        margin-right: 0%;
+    } 
+     .about-c{
+         font-size: 25px;
+         font-weight: 700;
+     }
+    .status1{
+       padding-left:1rem;
+       padding-right: 1rem;
+       font-size: 20px;
+    }
+    .status2{
+        font-size: 20px; 
+    }
+    
+    .day{
+   font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width: 1200px){
+    .listbody{
+        margin-left: 15%;
+        margin-right: 0%;
+    } 
+    .about-c{
+        font-size: 22px;
+        font-weight: 700;
+    }
+   .status1{
+      font-size: 17px;
+   }
+   .status2{
+       font-size: 17px; 
+   }
+   
+   .day{
+  font-size: 17px;
+   }
+}
+
+
+@media screen and (max-width: 1000px){
+    .listbody{
+        margin: 10%;
+       margin-top: 5%;
+    margin-left: 15%;  
+    margin-right: 3%;
+       display: flex;
+     justify-content: flex-start;
+     flex-direction: column;
+     gap: 4rem;
+    }
+
+     .container-c{
+         display: flex;
+         justify-content:space-between ;
+         gap: 2rem;
+         height: 250px;
+     }
+     
+     .image-c{
+      width: 300px;
+     }
+     
+     .infobox-c{
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+     }
+     
+     .about-c{
+         font-size: 22px;
+         font-weight: 700;
+     }
+     .status-c{
+        background: #ECEAE3;
+    }
+    
+    .status1{
+       padding-left:1rem;
+       padding-right: 1rem;
+       font-size: 15px;
+    }
+    .status2{
+        font-size: 15px; 
+    }
+    
+    .day{
+   font-size: 15px;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    .listbody{
+        margin: 10%;
+       margin-top: 5%;
+    margin-left:10%;  
+    margin-right: 2%;
+       display: flex;
+     justify-content: flex-start;
+     flex-direction: column;
+     gap: 4rem;
+    }
+
+     .container-c{
+         display: flex;
+         justify-content:space-between ;
+         gap: 2rem;
+         height: 250px;
+     }
+     
+     .image-c{
+      width: 300px;
+     }
+     
+     .infobox-c{
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+     }
+     
+     .about-c{
+         font-size: 20px;
+         font-weight: 700;
+     }
+     .status-c{
+        background: #ECEAE3;
+    }
+    
+    .status1{
+       padding-left:1rem;
+       padding-right: 1rem;
+       font-size: 15px;
+    }
+    .status2{
+        font-size: 15px; 
+    }
+    
+    .day{
+   font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .listbody{
+        margin: 10%;
+       margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 0%;  
+       display: flex;
+     justify-content: flex-start;
+     flex-direction: column;
+     gap: 4rem;
+    }
+
+     .container-c{
+         display: flex;
+         justify-content:space-between ;
+         gap: 2rem;
+         height: 200px;
+     }
+     
+     .image-c{
+      width: 200px;
+     }
+     
+     
+     .about-c{
+         font-size: 17px;
+         font-weight: 700;
+     }
+    
+    .status1{
+       font-size: 13px;
+    }
+    .status2{
+        font-size: 13px; 
+    }
+    
+    .day{
+   font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .listbody{
+        margin: 2%;
+       margin-top: 5%;
+       margin-left: 10%;
+     display: flex;
+     justify-content: flex-start;
+     flex-direction: column;
+     gap: 2rem;
+     }
+     .container-c{
+         display: flex;
+         justify-content:space-between ;
+         gap: 1rem;
+         height: 150px;
+     }
+     
+     .image-c{
+      width: 150px;
+      height:100%;
+     }
+     
+     .infobox-c{
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+         padding-bottom: 0.1rem;
+     }
+     
+     .about-c{
+         font-size: 13px;
+         font-weight: 700;
+         width: 100%;
+     }
+     
+     .statusbar{
+        width: 100%;
+     }
+     .status1{
+        padding-left:0.5;
+        padding-right: 0.5; 
+        font-size: 7px;
+        padding-top: 0.5rem;
+     }
+     .status2{  
+         font-size: 7px;
+         padding-top: 0.5rem;
+     }
+     
+     .day{
+         font-size: 7px;
+     }
+}
+
+@media screen and (max-width: 350px) {
+    .listbody{
+        margin: 2%;
+       margin-top: 5%;
+       margin-left: 20%;
+       margin-right: 0%;
+     display: flex;
+     justify-content: flex-start;
+     flex-direction: column;
+     gap: 2rem;
+     }
+     .container-c{
+         display: flex;
+         justify-content:space-between ;
+         gap: 1rem;
+         height: 100px;
+     }
+     
+     .image-c{
+      width: 100px;
+      height: 100%;
+     }
+     
+     .infobox-c{
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+         bottom: 115px;
+         left: 120px;
+     }
+     
+     .about-c{
+         font-size: 10px;
+         font-weight: 700;
+     }
+     .statusbar{
+        gap: 0.5rem;
+     }
+     
+     .status1{
+        padding-left:0.2;
+        padding-right: 0.2; 
+        font-size: 6px;
+        padding-top: 0.5rem;
+     }
+     .status2{  
+         font-size: 6px;
+         padding-top: 0.5rem;
+     }
+     
+     .day{
+         font-size: 6px;
+     }
+}

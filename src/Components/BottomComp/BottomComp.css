@@ -1,0 +1,121 @@
+
+@font-face {
+    font-family: 'ProzaDisplay'; 
+    src: url('../../assets/Fonts/PROZADISPLAY-BOLD.TTF') format('woff');;
+  
+  }
+.bottom{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(251, 251, 240);
+}
+.bottom img{
+    height: 210px;
+    width: 200px;
+  
+}
+.middle{
+padding: 130px;
+}
+.middle h1{
+    /* font-family:"Pr/oza Libre", sans-serif; */
+    font-family: "ProzaDisplay";
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+}
+.middle button{
+    font-family: "DM Sans", sans-serif;
+    margin: 10px 40px ;
+    text-align: center;
+    padding: 10px 30px ;
+    font-size: 18px;
+    color:rgb(77, 190, 243) ;
+    border-radius: 5px;
+    border:1px solid rgb(77, 190, 243);
+    background: transparent;
+}
+
+@media screen and (max-width: 1400px){
+    .bottom{
+        margin-top: 50px;
+        width: 1400px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .bottom img{
+        height: 200px;
+        width: 180px;
+    }
+}
+
+
+@media screen and (max-width: 1200px){
+    .bottom{
+        margin-top: 50px;
+        width: 1200px;
+    }
+    .middle{
+    padding: 0px;
+    }
+}
+@media screen and (max-width: 1000px){
+    .bottom{
+        margin-top: 50px;
+        width: 1000px;
+    }
+    .bottom img{
+        height: 150px;
+        width: 150px;
+    }
+}
+@media screen and (max-width: 800px){
+    .bottom{
+        margin-top: 50px;
+        width: 800px;
+    }
+    .bottom img{
+        height: 100px;
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .bottom{
+display: grid;
+justify-content: center;
+        margin-top: 50px;
+        width: 600px;
+    }
+    .bottom img{
+        height: 100px;
+        width: 100%;
+    }
+    .first{
+        display: none;
+    }
+    .last{
+        display: none;
+    }
+    .middle{
+        padding: 3rem;
+        padding-top: 0;
+        text-align: center;
+    }
+    .middle button {
+        padding: 30px 8px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .bottom{
+        margin-top: 50px;
+        width: 496px;
+    }
+
+}
+

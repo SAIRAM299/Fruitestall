@@ -1,0 +1,110 @@
+
+
+.pagefour-box{
+    height: 250px;
+    background: #FCF2BF; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dot{
+    height: 50px;
+    width: 50px;
+  margin-right: 25px;
+ margin-top:-130px ;
+}
+.pagefour-body{
+    margin: 15%;
+    margin-top: 5%;
+    margin-bottom: 0%;
+}
+.pagefour-content{
+    font-family: "DM Sans",sans-serif;
+    font-size: 20px;
+    width: 80%;
+    text-align: start;
+}
+
+@media screen and (max-width: 1200px){
+    .pagefour-body{
+        margin: 10%;
+    }
+    .pagefour-box{
+        height: 300px;
+    }
+    .dot{
+        height: 50px;
+        width: 50px;
+      margin-right: 25px;
+     margin-top:-150px ;
+    
+    }
+ }
+
+@media screen and (max-width: 800px){
+    .pagefour-body{
+  margin-top: 5%;
+    }
+    .dot{
+        height: 30px;
+        width: 30px;
+      margin-right: 25px;
+     margin-top:-80px ;
+    
+    }
+ .pagefour-box{
+    height: 150px;
+ }
+    .pagefour-content{
+        font-size: 10px;
+        line-height: 1rem;
+    }
+}
+
+
+@media screen and (max-width: 550px){
+    .pagefour-body{
+        margin-top: 5%;
+    }
+.pagefour-content{
+    padding-top: 1rem;
+        font-size: 7px;
+    }
+
+    .pagefour-box{
+        height: 100px;
+    }
+    .dot{
+        height: 20px;
+        width: 20px;
+      margin-right: 25px;
+     margin-top:-60px ;
+    
+    }
+}
+
+
+@media screen and (max-width: 400px){
+    .pagethree-heading{
+        font-size: 10px;
+    }
+    .pagefour-box{
+        height: 60px;
+    }
+    .pagefour-content{
+        font-size: 5px;
+        line-height: 0.5rem;
+    }
+    .pagefour-body{
+        margin:5%;
+        margin-top: 5%;
+    }
+    .dot{
+        height: 10px;
+        width: 10px;
+      margin-right: 25px;
+     margin-top:-40px ;
+    
+    }
+}

@@ -1,0 +1,123 @@
+.box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.fruit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%; 
+  height: 500px; 
+
+}
+
+
+
+.fruit img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.description {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: center;
+  padding: 156px 10px; 
+  
+
+}
+
+.description h1 {
+  padding: 10px; /* Adjust padding as needed */
+  text-align: left;
+}
+
+
+@media screen and (max-width: 1400px) {
+  .box {
+    margin: 0px;
+    padding: 30px;
+    width: 1400px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .box {
+    margin: 0px;
+    padding: 30px;
+    width: 1200px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .box {
+    margin: 0px;
+    padding: 30px;
+    width: 1000px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .box {
+    margin: 0px;
+    padding: 30px;
+    width: 800px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .box {
+    margin: 0px;
+    padding: 30px;
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+
+  .namebig{
+    font-size: 40px;
+  }
+  .box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 0px;
+    padding: 30px;
+    width: 450px;
+  }
+  .fruit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 135%;
+    height: 250px; 
+  
+  }
+  .namebig{
+    font-size: 60px;
+    margin-bottom: -10px;
+    margin-left: 73px;
+    /* text-align: center; */
+  }
+
+  .description {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+    padding: 60px 10px; 
+    width: 135%;
+  
+  }
+}
