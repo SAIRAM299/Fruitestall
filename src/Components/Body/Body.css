@@ -318,6 +318,24 @@ width: 80%;
      }
 }
 
+@media screen and (max-width: 400px) {
+    .listbody{
+        margin: 2%;
+       margin-top: 5%;
+       margin-left: 20%;
+       margin-right:-10%;
+     }
+     .about-c{
+         font-size: 11px;
+         font-weight: 700;
+         width: 100%;
+     }
+     
+     .statusbar-c{
+        width: 100%;
+     }
+}
+
 @media screen and (max-width: 350px) {
     .listbody{
         margin: 2%;
