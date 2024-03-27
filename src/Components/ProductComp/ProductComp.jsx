@@ -20,7 +20,7 @@ const products = [
     para: "easily and effortlessly",
     imageUrl: cherry,
     background: "#e7f6fe",
-    content: "#ffcccb",
+    content: "#c1e1c1",
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ const products = [
     para: "easily and effortlessly",
     imageUrl: strawberry,
     background: "#fdd4d3",
-    content: "#c1e1c1",
+    content: "#fdd4d3",
   },
   {
     id: 4,
@@ -36,18 +36,21 @@ const products = [
     para: "easily and effortlessly",
     imageUrl: pear,
     background: "#dec4de",
-    content: "#fdd4d3",
+    content: "#ffcccb",
   },
 ];
 
 const ProductComp = () => {
   const [activeProductIndex, setActiveProductIndex] = useState(0);
   const [showDescription, setShowDescription] = useState(false);
+  const [showImages, setShowImages] = useState(
+    Array(products.length).fill(false)
+  );
 
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveProductIndex((prevIndex) => (prevIndex + 1) % products.length);
-    }, 1000); // Switch product every 3 seconds
+    }, 2000); // Switch product every 3 seconds
 
     return () => clearInterval(interval);
   }, []);
@@ -61,7 +64,7 @@ const ProductComp = () => {
       } else {
         setActiveProductIndex(0);
       }
-    }, 1000);
+    }, 2000);
   };
 
   const handleMouseLeave = () => {
@@ -82,6 +85,14 @@ const ProductComp = () => {
     };
   }, []);
 
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setShowImages(showImages.map((_, index) => index === activeProductIndex));
+    }, 2000); // Adjust the delay as needed
+
+    return () => clearTimeout(timeout);
+  }, [activeProductIndex]);
+
   return (
     <div className="product-container">
       <div
@@ -96,10 +107,8 @@ const ProductComp = () => {
               className={`description ${showDescription ? "show" : ""}`}
               style={{ background: products[activeProductIndex].content }}
             >
-              <h1 >
-                <div className="namebig">
+              <h1 className={`heading ${showDescription ? "show" : ""}`}>
                 0{products[activeProductIndex].id}
-                </div>
                 <br />
                 <span
                   style={{ color: products[activeProductIndex].background }}
@@ -129,9 +138,11 @@ const ProductComp = () => {
               style={{ background: products[activeProductIndex].background }}
             >
               <img
+                key={products[activeProductIndex].id} // Use unique key for each image
                 src={products[activeProductIndex].imageUrl}
                 alt={`Product ${products[activeProductIndex].id}`}
-                style={{ maxWidth: "80%", maxHeight: "50%" }}
+                className={showImages[activeProductIndex] ? "show" : ""}
+                style={{ maxWidth: "80%", maxHeight: "80%" }}
               />
             </div>
 
@@ -139,7 +150,10 @@ const ProductComp = () => {
               className={`description ${showDescription ? "show" : ""}`}
               style={{ background: products[activeProductIndex].content }}
             >
-              <h1>
+              <h1
+                key={products[activeProductIndex].id}
+                className={`heading ${showDescription ? "show" : ""}`}
+              >
                 0{products[activeProductIndex].id}
                 <br />
                 <span

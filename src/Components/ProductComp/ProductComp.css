@@ -1,3 +1,96 @@
+
+
+
+@keyframes zoomIn {
+  0% {
+    bottom: -100%; /* Start position */
+    opacity: 0; /* Start opacity */
+    transform: scale(0); /* Start scale */
+  }
+  100% {
+    bottom: 0; /* End position */
+    opacity: 1; /* End opacity */
+    transform: scale(1); /* End scale */
+  }
+}
+
+
+@keyframes slideIn {
+  0% {
+    bottom: -100%; /* Start position */
+    opacity: 0; /* Start opacity */
+    transform: translateY(50px); /* Start position */
+  }
+  100% {
+    bottom: 0; /* End position */
+    opacity: 1; /* End opacity */
+    transform: translateY(0); /* End position */
+  }
+}
+
+@keyframes slideInimg {
+  0% {
+    bottom: 0; /* Start position */
+    opacity: 0; /* Start opacity */
+    
+  }
+
+  100% {
+    bottom: 0; /* End position */
+    opacity: 1; /* End opacity */
+    /* transform: translateY(0); */
+  }
+}
+.box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  transition: all 3s ease; /* Transition for smooth animation */
+}
+
+.fruit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%; 
+  height: 500px;
+  position: relative; /* Add relative positioning */
+  overflow: hidden; 
+}
+
+.fruit img {
+  max-width: 80%;
+  max-height: 80%;
+  position: absolute; /* Add absolute positioning */
+  bottom: -100%; /* Initially position the image below the container */
+  opacity: 0; 
+  animation: slideInimg 2s ease forwards; /* Apply a different animation */
+  /* Transition for smooth animation */
+}
+
+.description {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: center;
+  padding: 156px 10px;
+  transition: background-color 2s ease, color 2s ease, transform 2s ease;
+   /* Transition for smooth animation */
+}
+
+.description h1 {
+  padding: 10px; /* Adjust padding as needed */
+  text-align: left;
+   animation: slideIn 2s ease forwards; 
+   /* Apply a different animation */
+
+}
+
+
 .box {
   display: flex;
   justify-content: space-evenly;
@@ -29,10 +122,10 @@
   flex-direction: column;
   text-align: left;
   align-items: center;
-  padding: 156px 10px; 
-  
+  padding: 156px 10px;  
 
 }
+
 
 .description h1 {
   padding: 10px; /* Adjust padding as needed */
