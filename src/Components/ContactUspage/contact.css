@@ -447,9 +447,12 @@ font-size: 15px;
   }
 .Hello-primalcare{
   font-size: 8px;
+  padding-left: 10px;
 }
   .Send-mail{
-margin-top: 50px;
+margin-top: 20px;
+margin-bottom: 10px;
+padding-left: 10px;
 color:#828385;
 font-size: 8px;
 
@@ -596,9 +599,6 @@ font-size: 8px;
       }
       
   @media screen and (max-width: 450px) {
-    .Total-page-B{ 
-
-    }
       .Total-contpg{
           width: 450px;
       }
@@ -606,6 +606,11 @@ font-size: 8px;
         padding-left: 30px;
         padding-right: 0px;
       }
+
+      .input-class::placeholder {
+        font-size: 12px;
+      }
+      
   
       }
 

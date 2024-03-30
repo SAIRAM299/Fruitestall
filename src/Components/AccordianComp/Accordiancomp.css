@@ -1,0 +1,166 @@
+.Accordian-total-content{
+    display: flex;
+    justify-content: space-around;
+    margin-top:2rem;
+}
+
+.Accordian-titles{
+    width: 30%;
+    border-radius: 1rem;
+}
+
+.Accordian-heading{
+  font-size: 20px;
+  padding: 8%;
+  padding-left: 5%;
+  margin: 0%;
+}
+.Accordian-details{
+padding: 3%;
+margin: 0%;
+text-align: justify;
+}
+
+.Accordian-dot{
+padding-bottom: 5px;
+    color: #0066CC;
+    height: 30px;
+    width: 30px;
+    margin-right: 1rem;
+}
+.Accordian-arrow{
+    margin-right: 1rem;
+}
+.Front-image{
+    height: 350px;
+    width: 300px;
+    border-radius: 1rem;
+    position: absolute;
+   margin-left: -28%;
+   margin-top: 3%;
+}
+.Back-image{ 
+  height: 400px;
+  width: 400px;
+}
+@media screen and (max-width: 2000px) {
+    .Front-image{
+        height: 350px;
+        width: 250px;
+        margin-left:-19% ;
+    }
+    .Back-image{ 
+      height: 400px;
+      width: 350px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .Front-image{
+        height: 350px;
+        width: 250px;
+        margin-left:-23% ;
+    }
+    .Back-image{ 
+      height: 400px;
+      width: 350px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .Front-image{
+        height: 350px;
+        width: 250px;
+        margin-left:-28% ;
+    }
+    .Back-image{ 
+      height: 400px;
+      width: 350px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .Front-image{
+        height: 350px;
+        width: 250px;
+        margin-left:-35% ;
+    }
+    .Back-image{ 
+      height: 400px;
+      width: 350px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .Front-image{
+        height: 350px;
+        width: 250px;
+    }
+    .Back-image{ 
+      height: 400px;
+      width: 300px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .Front-image{
+        height: 300px;
+        width: 200px;
+        margin-left: -40%;
+    }
+    .Back-image{ 
+      height: 350px;
+      width: 250px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Front-image{
+        height: 250px;
+        width: 150px;
+    }
+    .Back-image{ 
+      height: 300px;
+      width: 200px;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .Accordian-total-content{
+        display: flex;
+        justify-content: space-around;
+    }  
+    .Accordian-heading{
+      font-size: 13px; 
+    }
+    .Accordian-details{
+font-size: 8px;
+padding: 10%;
+    }
+    
+    .Accordian-dot{
+        padding-bottom: 3px;
+        height: 20px;
+        width: 20px;
+        margin-right: 0.5rem;
+    }
+    .Front-image{
+        height: 160px;
+        width: 120px;
+        margin-left: -40%;
+        margin-top: 4%;
+    }
+    .Back-image{ 
+      height: 200px;
+      width: 150px;
+    }
+    .Accordian-arrow{
+        margin-right: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .Front-image{
+        margin-left: -48%;
+    }
+}

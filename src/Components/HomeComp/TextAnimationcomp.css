@@ -16,6 +16,7 @@
   
 
   .common {
+   
     color: #0066CC;
     position: absolute;
     opacity: 1;
@@ -28,7 +29,7 @@
     opacity: 0;
     font-family: "ProzaDisplay";
     transition: opacity 1s ease-in-out;
-    left: 54px; 
+    left: 80px; 
     color: #0066CC; /* Specify the font color */
   }
   
@@ -85,7 +86,9 @@
     .text-animation-container {
       font-size: 60px;
     }
-    
+    .text-animation{
+      left: 70px;
+    }
   }
 
     
@@ -98,7 +101,9 @@
 
     }
     
-    
+    .text-animation{
+      left: 55px;
+    }
     
   }
 

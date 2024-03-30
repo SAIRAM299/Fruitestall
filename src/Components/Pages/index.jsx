@@ -20,6 +20,7 @@ export default function MainHome() {
       <Subscribe />
       <BottomComp />
 
+
     </div>
   );
 }

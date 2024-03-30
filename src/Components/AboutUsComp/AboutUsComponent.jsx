@@ -4,6 +4,7 @@ import Operate1 from "../../assets/Operate1.png"
 import Rightarrow from "../../assets/Rightarrow.png"
 import Collapsecomponent from '../Collapsecomp/Collapsecomponent';
 import Carouselcomponent from '../Carouselcomp/Carouselcomponent';
+import Accordiancomp from '../AccordianComp/Accordiancomp';
 const AboutUsComponent = () => {
     return (
     <div className='Aboutus-total-page'>
@@ -14,7 +15,8 @@ const AboutUsComponent = () => {
         <h1 className="Shine-text">shine</h1>
       </div>
       <div>
-        <Collapsecomponent/>
+        {/* <Collapsecomponent/> */}
+        <Accordiancomp/>
       </div>
       <div>
       <div className="Operateclass-B">
