@@ -11,9 +11,12 @@
 
 .Accordian-heading{
   font-size: 20px;
-  padding: 8%;
+  padding: 3%;
   padding-left: 5%;
   margin: 0%;
+  &:hover{
+    cursor: pointer;
+  }
 }
 .Accordian-details{
 padding: 3%;
@@ -147,7 +150,7 @@ padding: 10%;
     .Front-image{
         height: 160px;
         width: 120px;
-        margin-left: -40%;
+        margin-left: -42%;
         margin-top: 4%;
     }
     .Back-image{ 
@@ -161,6 +164,6 @@ padding: 10%;
 
 @media screen and (max-width: 350px) {
     .Front-image{
-        margin-left: -48%;
+        margin-left: -51%;
     }
 }
